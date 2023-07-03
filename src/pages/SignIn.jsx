@@ -53,6 +53,10 @@ const SignIn = () => {
           />
         </div>
         <div className="w-full md:w-[67%] lg:w-[40%] lg:ml-20">
+          <h2 className="text-2xl font-semibold">Demo Account</h2>
+          <h3 className="text-lg">Email: demo@gmail.com </h3>
+          <h3 className="text-lg mb-6">Password: demo123</h3>
+
           <form onSubmit={handleSubmit}>
             <input
               className="w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition ease-in-out mb-6"
